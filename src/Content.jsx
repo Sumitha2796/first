@@ -21,10 +21,7 @@ const buttonStyle = {
     color: 'red',
   };
   let [img,setimg]= useState("null");
-  function displayImg()
-  {
-   setimg()
-  }
+//  
   return (
     <div>
          <button style={buttonStyle} onClick={displayImg}>Dhaniskaa</button>
